@@ -1,0 +1,29 @@
+blockExoticSubdeps: false
+packages: []
+
+minimumReleaseAgeExclude:
+  - bl@0.9.5
+  - bl@1.2.3
+  - braces@3.0.3
+  - micromatch@4.0.8
+  - tmp@0.2.4
+  - elliptic@6.6.2
+  - diff@8.0.3
+  - semver@5.7.2
+  - serialize-javascript@7.0.3
+  - semver@4.3.2
+  - serialize-javascript@7.0.5
+  - "@constl/bohr-db"
+
+allowBuilds:
+  '@ipshipyard/node-datachannel': true
+  '@localfirst/auth': true
+  '@localfirst/crdx': true
+  '@localfirst/crypto': true
+  '@localfirst/shared': true
+  classic-level: true
+  esbuild: true
+  iso-constants@https://codeload.github.com/inverted-capital/iso-constants/tar.gz/2af6fdfb2cacaa03ebd58543703918783e62649f: true
+  msgpackr-extract: true
+  node-datachannel: true
+  protobufjs: true
