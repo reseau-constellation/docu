@@ -28,9 +28,9 @@ jobs:
           node-version: "24.4.1"
           cache: 'pnpm'
 
-      - run: cd docu && pnpm install && pnpm exec playwright install
-      - run: cd docu/scripts/images && pnpm i && pnpm exec playwright install
-      - run: cd docu && pnpm build
+      - run: pnpm install && pnpm exec playwright install
+      - run: pnpm scripts
+      - run: pnpm build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
